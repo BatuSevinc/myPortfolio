@@ -1,0 +1,43 @@
+.homepage{
+    h1{
+        font-size: 72px;
+        &::first-letter{
+            color: rgb(192, 55, 55);
+            text-shadow: -3px -2px 8px rgba(110, 243, 44, 0.5);
+        }
+        p{
+            letter-spacing: 2px;
+            position: relative;
+            
+            &::before{
+                content: attr(data-text);
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: inherit;
+                background-color: #227c70;
+                color: #fff;
+                clip-path: polygon(0 0,25% 0,25% 100%,0 100%);
+                animation: slide 2s ease-in-out alternate infinite;
+            }
+            @keyframes slide{
+                to{
+                    clip-path: polygon(75% 0,100% 0,100% 100%,75% 100%);
+                }
+            }
+        }
+    }
+    p{
+color: gray;
+}
+button{
+    width: 200px;
+    background-color: transparent;
+    border: #66ff00 solid 1px;
+    color: #66ff00;
+    &:hover{
+        box-shadow: 2px 2px 4px #66ff00;
+
+    }
+}
+}
