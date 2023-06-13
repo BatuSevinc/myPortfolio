@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import {jobs} from '../../helpers/Data'
-import './Jobs.scss'
+import './jobs.scss'
 const Jobs = () => {
   const firstThreeItems = jobs.slice(-3);
   return (
