@@ -1,0 +1,15 @@
+.jobs{
+    img{
+        width: 200px;
+    }
+    a{
+        width: 200px;
+        background-color: transparent;
+        border: #66ff00 solid 1px;
+        color: #66ff00;
+        &:hover{
+            background-color: #66ff00;
+            color: black;
+        }
+    }
+}

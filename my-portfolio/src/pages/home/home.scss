@@ -1,4 +1,7 @@
 .homepage{
+    &-left{
+        height: 100vh;
+    }
     h1{
         font-size: 72px;
         &::first-letter{
@@ -38,6 +41,12 @@ button{
     &:hover{
         box-shadow: 2px 2px 4px #66ff00;
 
+    }
+}
+&-right{
+    h5{
+        color: #43980a;
+        
     }
 }
 }
