@@ -4,7 +4,7 @@ import './jobs.scss'
 const Jobs = () => {
   const firstThreeItems = jobs.slice(-3);
   return (
-    <div className='d-flex gap-5'>
+    <div className='d-md-flex gap-5'>
       { 
       firstThreeItems.map((job,i)=>(
         <div className='jobs' key={i}>

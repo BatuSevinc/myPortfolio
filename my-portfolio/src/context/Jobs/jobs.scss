@@ -13,3 +13,30 @@
         }
     }
 }
+@media only screen and (max-width: 600px) {
+    .jobs{
+        display: flex;
+        flex-direction: column;
+        
+        img{
+            width: 300px;
+        }
+        a{
+            width: 300px;
+            background-color: transparent;
+            border: #66ff00 solid 1px;
+            color: #66ff00;
+            margin-bottom: 20px;
+            &:hover{
+                background-color: #66ff00;
+                color: black;
+            }
+        }
+        h4,p{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+}

@@ -2,8 +2,8 @@ import MePhoto from "../../assets/me.jpg";
 import "./aboutMe.scss";
 const AboutMe = () => {
   return (
-    <div className="aboutMe w-100 d-flex align-items-center justify-content-around text-white">
-      <div className="w-25">
+    <div className="aboutMe w-100 d-lg-flex align-items-center justify-content-around text-white">
+      <div className="w-lg-25">
         <h1>My, MySelf & I</h1>
         <p className="pt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus

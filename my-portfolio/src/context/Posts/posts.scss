@@ -7,3 +7,17 @@
         }
     }
 }
+@media only screen and (max-width: 768px) {
+    .posts{
+        a{
+        h2{
+            width: 300px;
+        }
+        &:hover{
+            h2{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+}

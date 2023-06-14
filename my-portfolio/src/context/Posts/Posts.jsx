@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Posts = () => {
   const lastTwoItems = posts.slice(-2);
   return (
-      <div className='posts d-flex flex-wrap w-75'>
+      <div className='posts d-flex flex-wrap w-lg-75'>
     {
         lastTwoItems.map((post,i)=>(
             <div className='p-3'>

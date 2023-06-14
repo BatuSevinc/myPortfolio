@@ -1,14 +1,13 @@
 import Jobs from '../../context/Jobs/Jobs';
 import Posts from '../../context/Posts/Posts';
 import './home.scss';
-
 const Home = () => {
 
   const handleClick = () =>{
     window.location.href = '/contact';
   }
   return (
-    <div className='homepage text-white bg-dark w-100 d-flex justify-content-between align-items-center ps-5'>
+    <div className='homepage text-white bg-dark w-100 d-lg-flex justify-content-between align-items-center ps-5'>
       <div className='homepage-left d-flex flex-column justify-content-center'>
       <h1 className='fw-bold'>Hi, <p data-text={`I'm Batuhan,`}>I'm Batuhan, </p> web developer</h1>
       <p className='pt-2'>Front-end Developer</p>

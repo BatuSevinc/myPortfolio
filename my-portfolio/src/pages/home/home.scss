@@ -50,3 +50,15 @@ button{
     }
 }
 }
+
+@media only screen and (max-width: 768px) {
+    .homepage{
+        &-right{
+            h5{
+                width: 300px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
